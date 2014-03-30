@@ -4,13 +4,15 @@ This is the CLIENT portion of the test to reproduce caching issues for Active Re
 
 Directions:
 
-  set up the test-active-rest-client-api first, run it at localhost:3000
-  clone repository
+Set up the test-active-rest-client-api first, run it at localhost:3000.
+
+Clone this repo.
+
   bundle
 
   bundle exec rails c
 
-  In the console, do this twice:
+In the console, do this twice:
 
   TestList.all_the_things
   TestList.all_the_things
